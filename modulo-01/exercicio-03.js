@@ -1,6 +1,6 @@
 //3 - Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela pode fazer
 
-let peca = "rainha";
+let peca = "Xablau";
 
 switch (peca) {
   case "peao":
@@ -25,6 +25,6 @@ switch (peca) {
     break;
 
   default:
-    console.log("Peça não encontrada");
+    console.log("Peça inválida.");
     break;
 }
